@@ -1,0 +1,11 @@
+MongoDB signup with instruments.aicccmb@gmail.com   
+username: aicccmb_app_user
+password: BoKJzSoQoPPAzUBS
+MongoDB Atlas connections string:
+mongodb+srv://aicccmb_app_user:<db_password>@cluster0.kbmatqs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+//below is after replacing <db password> with the above password
+mongodb+srv://aicccmb_app_user:<BoKJzSoQoPPAzUBS>@cluster0.kbmatqs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+mongoDB Compass connection string:
+mongodb+srv://aicccmb_app_user:<db_password>@cluster0.kbmatqs.mongodb.net/

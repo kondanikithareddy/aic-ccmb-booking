@@ -1,0 +1,72 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f9;
+  color: #333;
+}
+.container { max-width: 1200px; margin: auto; padding: 20px; }
+h1, h2, h3 { color: #2c3e50; }
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 5px;
+}
+button:hover { background-color: #2980b9; }
+button.danger { background-color: #e74c3c; }
+button.danger:hover { background-color: #c0392b; }
+button.success { background-color: #2ecc71; }
+button.success:hover { background-color: #27ae60; }
+button:disabled { background-color: #bdc3c7; cursor: not-allowed; }
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2c3e50;
+  color: white;
+  padding: 10px 40px;
+  margin: -20px -20px 20px -20px;
+}
+.header a { color: white; text-decoration: none; margin: 0 10px; }
+.header h1 { color: white; margin: 0; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+.status-Booked { color: #f39c12; font-weight: bold; }
+.status-Active { color: #2ecc71; font-weight: bold; }
+.status-Completed { color: #7f8c8d; font-weight: bold; }
+.status-Under-Maintenance { color: #e74c3c; font-weight: bold; }
+.status-Pending { color: #4533df; font-weight: bold; }
+.status-Approved { color: #3498db; font-weight: bold; } /* Was .status-Booked */
+.status-Rejected { color: #c0392b; font-weight: bold; }
+

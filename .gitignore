@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+/bookingclient/node_modules/
+/server/node_modules/
+
+# Production
+/bookingclient/build/
+
+# Environment variables
+/server/.env
+
+# Misc
+.DS_Store
